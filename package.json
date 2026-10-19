@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "playwright": "1.58.2",
+    "wrangler": "4.76.0"
+  },
+  "private": true,
+  "name": "real-o-ia",
+  "scripts": {
+    "dev": "wrangler dev --ip 127.0.0.1",
+    "db:local": "wrangler d1 migrations apply real-o-ia-results --local",
+    "deploy": "wrangler deploy",
+    "db:remote": "wrangler d1 migrations apply real-o-ia-results --remote",
+    "test": "node scripts/test.mjs",
+    "check:images": "node scripts/check-images.mjs",
+    "predeploy": "npm run check:images",
+    "test:browser": "node tests/browser.mjs",
+    "test:api": "node --test tests/worker.test.mjs"
+  }
+}

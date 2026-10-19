@@ -1,0 +1,142 @@
+[
+  {
+    "id": "image-01",
+    "imageUrl": "/static/images/placeholder-01.svg",
+    "correctAnswer": "real",
+    "model": "Fotografía real",
+    "generationLevel": 0
+  },
+  {
+    "id": "image-02",
+    "imageUrl": "/static/images/placeholder-02.svg",
+    "correctAnswer": "real",
+    "model": "Fotografía real",
+    "generationLevel": 0
+  },
+  {
+    "id": "image-03",
+    "imageUrl": "/static/images/placeholder-03.svg",
+    "correctAnswer": "real",
+    "model": "Fotografía real",
+    "generationLevel": 0
+  },
+  {
+    "id": "image-04",
+    "imageUrl": "/static/images/placeholder-04.svg",
+    "correctAnswer": "real",
+    "model": "Fotografía real",
+    "generationLevel": 0
+  },
+  {
+    "id": "image-05",
+    "imageUrl": "/static/images/placeholder-05.svg",
+    "correctAnswer": "real",
+    "model": "Fotografía real",
+    "generationLevel": 0
+  },
+  {
+    "id": "image-06",
+    "imageUrl": "/static/images/placeholder-06.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 1",
+    "generationLevel": 1
+  },
+  {
+    "id": "image-07",
+    "imageUrl": "/static/images/placeholder-07.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 1",
+    "generationLevel": 1
+  },
+  {
+    "id": "image-08",
+    "imageUrl": "/static/images/placeholder-08.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 1",
+    "generationLevel": 1
+  },
+  {
+    "id": "image-09",
+    "imageUrl": "/static/images/placeholder-09.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 1",
+    "generationLevel": 1
+  },
+  {
+    "id": "image-10",
+    "imageUrl": "/static/images/placeholder-10.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 1",
+    "generationLevel": 1
+  },
+  {
+    "id": "image-11",
+    "imageUrl": "/static/images/placeholder-11.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 2",
+    "generationLevel": 2
+  },
+  {
+    "id": "image-12",
+    "imageUrl": "/static/images/placeholder-12.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 2",
+    "generationLevel": 2
+  },
+  {
+    "id": "image-13",
+    "imageUrl": "/static/images/placeholder-13.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 2",
+    "generationLevel": 2
+  },
+  {
+    "id": "image-14",
+    "imageUrl": "/static/images/placeholder-14.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 2",
+    "generationLevel": 2
+  },
+  {
+    "id": "image-15",
+    "imageUrl": "/static/images/placeholder-15.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 2",
+    "generationLevel": 2
+  },
+  {
+    "id": "image-16",
+    "imageUrl": "/static/images/placeholder-16.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 3",
+    "generationLevel": 3
+  },
+  {
+    "id": "image-17",
+    "imageUrl": "/static/images/placeholder-17.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 3",
+    "generationLevel": 3
+  },
+  {
+    "id": "image-18",
+    "imageUrl": "/static/images/placeholder-18.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 3",
+    "generationLevel": 3
+  },
+  {
+    "id": "image-19",
+    "imageUrl": "/static/images/placeholder-19.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 3",
+    "generationLevel": 3
+  },
+  {
+    "id": "image-20",
+    "imageUrl": "/static/images/placeholder-20.svg",
+    "correctAnswer": "ai",
+    "model": "DALL·E 3",
+    "generationLevel": 3
+  }
+]

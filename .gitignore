@@ -1,0 +1,8 @@
+instance/
+.venv/
+__pycache__/
+.env
+node_modules/
+.wrangler/
+.dev.vars
+.env.*

@@ -1,0 +1,27 @@
+PROYECTO EXISTENTE ¿REAL O IA? — TRANSFERENCIA SIN SECRETOS NI DATOS DE PARTICIPANTES
+
+La herramienta de guardado devolvió CONFLICT / stale_base: este chat usa un borrador cuya versión base quedó obsoleta después de publicar/modificar el entorno. La respuesta indica explícitamente que leer y reenviar ese borrador no lo corrige.
+
+Para continuar: abrir un chat NUEVO de configuración desde los ajustes ACTUALES del entorno y adjuntar este ZIP. No crear una aplicación nueva. No depender de que ese chat tenga el mismo workspace.
+
+Contenido:
+- proyecto/: código completo vigente, dependencias bloqueadas, migraciones, pruebas, documentación y los 20 placeholders.
+- config-propuesto.json: instrucciones reutilizables completas y propuesta del ID de cuenta no secreto. El guardado no se confirmó. Reconciliar con el borrador nuevo y preservar configuración y bindings existentes antes de guardar.
+- evidencias/: PNG y captura móvil de pruebas ficticias, no resultados de adolescentes.
+
+No contiene .dev.vars, tokens, .git, node_modules, bases de datos ni datos de participantes. No copiar ni sobrescribir bases de datos en el nuevo entorno. Preservar resultados reales y cambios del checkout de destino antes de aplicar código. Revisar diferencias si el destino ya tiene código.
+
+Requisitos del usuario:
+- Continuar esta app, 20 imágenes (5 reales y 5 de DALL·E 1, 2 y 3). Meta 15 participantes, sin limitar el juego a 15.
+- Solo edad e ID anónimo; orden aleatorio, no mostrar corrección/modelo durante el juego.
+- Conservar resultados, panel privado, porcentajes por modelo e imagen, PNG descargable, CSV una fila por respuesta.
+- TODO gratuito, sin tarjeta, planes pagos ni APIs pagas. Cloudflare Workers Free y D1 Free. Publicación gratuita ya autorizada.
+- Antes de incorporar imágenes definitivas, mostrar las 20 con fuentes, procedencia/modelo/fechas/tema/dimensiones/licencia y esperar aprobación. Actualmente no hay selección suficiente comprobada; no inventar etiquetas ni eludir check:images.
+
+Validado: npm test pasa migración preservando datos históricos y pruebas locales de 15 participantes=300 respuestas, participante 16, CSV, estadísticas y Chromium móvil con 20 imágenes, panel y PNG 1800x1200. Usa una base temporal y puerto libre; no toca datos del experimento. Las pruebas finales con imágenes aprobadas y sitio público siguen pendientes.
+
+Antes de publicar: leer estado runtime y borrador nuevo. En este chat no hay token ni ID inyectados, los dominios de Cloudflare/OpenAI/Wikimedia siguen bloqueados en la política efectiva, y wrangler.jsonc tiene ID de base de ceros. Reusar bindings efectivos si están presentes en el entorno nuevo; no pedir tokens en el chat ni usar el token antiguo compartido y luego revocado. Los requisitos de secreto CLOUDFLARE_API_TOKEN para api.cloudflare.com, ID de cuenta y dominios ya estaban en el borrador viejo, pero no aplicados al runtime.
+
+Consultar proyecto/docs/estado-y-validacion.md y proyecto/docs/seleccion-imagenes.md. La guía de publicación está en proyecto/README.md. Crear/identificar D1 y respaldar antes de migrar datos existentes; solo publicar el estudio cuando tenga imágenes verificadas y aprobadas. Verificar luego web pública, persistencia remota, /admin, CSV, PNG y móvil sin mezclar datos ficticios con datos reales.
+
+TRANSFERENCIA POR GITHUB: si el ZIP no se descarga, recuperar el código de la rama respaldo-20-imagenes del repositorio LudmilaGrun/Tesina---TEI. El contenido de proyecto/ estará en la raíz del repositorio y esta guía y config-propuesto.json estarán en docs/. Leer la configuración nueva antes de intentar guardarla.

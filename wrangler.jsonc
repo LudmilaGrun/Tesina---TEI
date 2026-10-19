@@ -1,0 +1,9 @@
+{
+  "name": "real-o-ia",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": true,
+  "assets": {"directory": "./public", "html_handling": "none", "binding": "ASSETS", "run_worker_first": ["/", "/api/*", "/admin", "/admin/*"]},
+  "d1_databases": [{"binding": "DB", "database_name": "real-o-ia-results", "database_id": "00000000-0000-0000-0000-000000000000", "migrations_dir": "migrations"}],
+  "observability": {"enabled": false}
+}
